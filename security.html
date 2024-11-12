@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desert Security - Seguridad avanzada para tu empresa en un entorno desértico.">
+    <title>Desert Security</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f1e4; /* Fondo en tonos desérticos */
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #4b4b47;
+            color: #f4f1e4;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 700;
+        }
+        header p {
+            font-style: italic;
+            font-size: 1.2em;
+        }
+
+        /* Navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #f4f1e4;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #6b6a66;
+        }
+
+        /* Secciones */
+        section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Inicio */
+        .inicio {
+            text-align: center;
+        }
+        .inicio h2 {
+            font-size: 2em;
+            color: #6b6a66;
+        }
+        .inicio p {
+            font-size: 1.2em;
+        }
+
+        /* Servicios */
+        .servicios h2 {
+            font-size: 2em;
+            color: #6b6a66;
+            text-align: center;
+        }
+        .servicio-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #e0dbc8;
+            border-radius: 8px;
+        }
+        .servicio-item h3 {
+            font-size: 1.5em;
+            margin: 0;
+            color: #333;
+        }
+        .servicio-item p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Acerca de */
+        .acerca h2 {
+            font-size: 2em;
+            color: #6b6a66;
+            text-align: center;
+        }
+        .acerca p {
+            font-size: 1.2em;
+            text-align: justify;
+        }
+
+        /* Contacto */
+        .contacto h2 {
+            font-size: 2em;
+            color: #6b6a66;
+            text-align: center;
+        }
+        .contacto form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contacto input, .contacto textarea {
+            padding: 10px;
+            border: 1px solid #6b6a66;
+            border-radius: 5px;
+        }
+        .contacto button {
+            padding: 10px 20px;
+            background-color: #6b6a66;
+            color: #fff;
+            font-size: 1em;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contacto button:hover {
+            background-color: #333;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #4b4b47;
+            color: #f4f1e4;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Desert Security</h1>
+        <p>Protección y seguridad en un ambiente único</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#acerca">Acerca de</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="inicio">
+        <h2>Bienvenido a Desert Security</h2>
+        <p>Brindamos soluciones de seguridad de primera clase, personalizadas para las necesidades únicas de su empresa, en un entorno profesional e innovador.</p>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio-item">
+            <h3>Monitoreo 24/7</h3>
+            <p>Vigilancia y protección continua para su tranquilidad y seguridad.</p>
+        </div>
+        <div class="servicio-item">
+            <h3>Consultoría de Seguridad</h3>
+            <p>Análisis detallado y estrategias personalizadas para optimizar la seguridad de su empresa.</p>
+        </div>
+        <div class="servicio-item">
+            <h3>Análisis de Vulnerabilidades</h3>
+            <p>Identificación y mitigación de riesgos potenciales en sus sistemas.</p>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca" class="acerca">
+        <h2>Acerca de Desert Security</h2>
+        <p>En Desert Security, nos especializamos en brindar soluciones de seguridad de alta calidad, combinando tecnología avanzada y un enfoque orientado a la confianza. Nuestro equipo de expertos trabaja incansablemente para garantizar que sus datos y su empresa estén siempre seguros.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Desert Security. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
